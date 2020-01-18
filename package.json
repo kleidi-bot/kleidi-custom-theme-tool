@@ -1,0 +1,29 @@
+{
+  "name": "kleidi-custom-theme-tool",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "babel-watch index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DPM97/kleidi-custom-theme-tool.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DPM97/kleidi-custom-theme-tool/issues"
+  },
+  "homepage": "https://github.com/DPM97/kleidi-custom-theme-tool#readme",
+  "dependencies": {
+    "@babel/core": "^7.8.3",
+    "babel-watch": "^7.0.0",
+    "express": "^4.17.1",
+    "http": "0.0.0",
+    "noty": "^3.2.0-beta",
+    "nunjucks": "^3.2.0",
+    "opn": "^6.0.0"
+  }
+}
